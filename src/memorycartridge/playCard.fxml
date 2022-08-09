@@ -7,7 +7,9 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" fx:id="scenePane" prefHeight="400.0" prefWidth="600.0" stylesheets="@playcard.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="memorycartridge.PlayCardController">
+<AnchorPane id="AnchorPane" fx:id="scenePane" prefHeight="400.0" prefWidth="600.0" stylesheets="@playcard.css"
+   xmlns="http://javafx.com/javafx/8.0.171"
+   xmlns:fx="http://javafx.com/fxml/1" fx:controller="memorycartridge.PlayCardController">
    <children>
       <ImageView fitHeight="444.0" fitWidth="647.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
          <image>
@@ -17,11 +19,13 @@
       <Button fx:id="exitButton" layoutX="494.0" layoutY="53.0" mnemonicParsing="false" onAction="#exitAction" prefHeight="53.0" prefWidth="130.0" style="-fx-background-color: #FF7F50;" text="EXIT" textFill="#22192c">
          <font>
             <Font size="18.0" />
-         </font></Button>
+         </font>
+      </Button>
       <Button fx:id="homeButton" layoutX="24.0" layoutY="53.0" mnemonicParsing="false" onAction="#homeAction" prefHeight="53.0" prefWidth="130.0" style="-fx-background-color: #FF7F50;" text="Home" textFill="#22192c">
          <font>
             <Font name="Marlett" size="18.0" />
-         </font></Button>
+         </font>
+      </Button>
       <Button fx:id="fileButton" layoutX="259.0" layoutY="53.0" mnemonicParsing="false" onAction="#fileAction" prefHeight="53.0" prefWidth="130.0" style="-fx-background-color: #FF7F50;" text="OPEN CARDS">
          <font>
             <Font name="Marlett" size="18.0" />
